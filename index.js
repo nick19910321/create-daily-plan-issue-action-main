@@ -27,7 +27,7 @@ function getTitle() {
 }
 
 function getDate() {
-  // 运行环境是 UTC 时区
+  // 运行环境是 UTC 时区 
   // 需要转换成 中国时区
   // 中国时区 = UTC时区 + 8小时
   return dayjs().add("8", "hour").format("YYYY-MM-DD");
